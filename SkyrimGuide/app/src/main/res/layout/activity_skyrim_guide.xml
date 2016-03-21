@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scaleType="centerCrop"
+    tools:context="com.example.sebastian.proiectv2.ProiectV2"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/nr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#66dbddd1"
+        android:cacheColorHint="#00000000"
+        android:onClick="numb1"
+        android:text="What is skyrim"
+        android:textColor="#000000"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/nr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nr1"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#66dbddd1"
+        android:onClick="numb2"
+        android:text="Useful tips"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/nr3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nr2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#66dbddd1"
+        android:onClick="numb3"
+        android:text="Builds"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/nr4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nr3"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#66dbddd1"
+        android:onClick="numb4"
+        android:text="Cheats"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/nr5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nr4"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#66dbddd1"
+        android:onClick="numb5"
+        android:text="vs   oblivion"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="225dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/nr5"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logo"/>
+    <TextView
+        android:id="@+id/nr7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66dbddd1"
+        android:text="The Elder Scrolls V: Skyrim is an action role-playing open
+world video game developed by Bethesda Game Studios. \n
+\n
+Skyrim's main story revolves around the player character and their effort to defeat Alduin the World-Eater, a dragon who is prophesied to destroy
+the world. The game is set two hundred years after the events of Oblivion and takes
+place in the fictional province of Skyrim. Skyrim continues the open world tradition of its predecessors by allowing
+the player to travel anywhere in the game world at any time, and to ignore or postpone
+the main storyline indefinitely."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="gone"
+    />
+    <TextView
+        android:id="@+id/nr8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66dbddd1"
+        android:text="-Don't worry if you haven't played earlier Elder Scrolls games. \n
+-Play it on PC if you can.\n
+(if using a console) Don't install it to your Xbox 360's hard drive.\n
+-Don't lower the difficulty—some fights are supposed to be hard.\n
+-Don't worry which ancestral stone you choose at first—character classes aren't permanent.\n
+-Save often.\n
+-Don't piss off the mammoths.\n
+-Don't piss off the giants, either.\n
+-Travel with a friend. (hire someone for battle or luggage).\n
+-Try using a shield.\n
+-Stick to first-person perspective in combat.\n
+-In the early goings, buy health potions whenever you can. \n"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/nr9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66dbddd1"
+        android:text="Archer - Users of bows and crossbows \n
+Juggernaut - Tough characters that use heavy armor and/or blocking \n
+Knight - Honorable warriors skilled in close combat \n
+Barbarian - Brutish fighters that use light armor and two handed weapons \n
+Monk - Combatants that prefer to fight with their hands as well as bows \n
+Warrior - Fighters that rely primarily on combat skills \n
+Blacksmith - Characters that create and/or temper their equipment \n
+Dual-Wield - Characters that use a weapon in each hand \n
+Crusader - Holy warriors devoted to eradicating evil \n
+Necromancer - Magic users skilled at raising the dead \n
+Elementalist - Mages that wield the power of the elements through Destruction magic \n
+Healer - Characters skilled in healing themselves or their allies \n
+Sorcerer - Mages that utilize heavy armor to protect themselves \n
+Mage - Magic users skilled in the arcane arts \n
+Witchhunter - Skilled archers who make use of spells \n
+Spellsword - Combatants capable of wielding both weapons and magic \n
+Illusionist - Mages skilled in the arts of Illusion magic \n
+Summoner - Mages that utilize Conjuration magic to bring forth otherworldly allies \n
+Enchanter - Characters that imbue their equipment with magical effects \n
+Battlemage - Mages that can also use weapons to destroy their foes \n
+Nightblade - Rogues and assassins that use magic to enhance their abilities \n
+\n
+\n
+Pilgrim - Mobile warriors, travelers and hagglers \n
+Rogue - Characters that make use of stealth, skill and wit to win battles \n
+Scout - Stealthy archers skilled in both alchemy and close combat \n
+Assassin - Characters that prefer to eliminate foes from the shadows \n
+Thief - Scoundrels that prefer to steal from people rather than kill them \n
+Acrobat - Agile fighters who use speed and agility to their advantage \n
+Alchemist - Characters skilled in making potions and poisons \n
+Bard - Jacks of all trades, these characters use weapons, magic and skill \n
+Agent - Spies and assassins, making use of spells and stealth \n
+\n
+\n
+Bound Weapons - Characters who make use of conjured weapons \n
+No Crafting - Characters who do not use any crafting skills \n
+Mage Armor - Characters who rely primarily on flesh spells for defense \n
+Unarmored - Characters with little to no armor rating \n
+Unarmed - Characters who fight with their fists or claws \n
+Shouts - Characters who make heavy use of shouts \n
+Supporter - Characters who buff their allies instead of fighting themselves. \n
+Werewolf - Characters who use their werewolf form extensively \n
+Vampire - Characters who utilize vampirism \n
+Hero - Characters devoted to good and justice \n
+Villain - Characters devoted to evil \n
+Mods - Characters that rely heavily on game modifications. \n"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/nr10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66dbddd1"
+        android:text="tgm - god mode \n
+tcl - walk through walls \n
+psb - all spells \n
+help - list of all commands \n
+qqq - force quits the game \n
+resurrect - revives the NPC \n
+unlock - unlocks any door or chest \n
+\n
+These are the ones you'll most likely need. Since there are \n
+many more consult the wiki page if in need. \n"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/nr11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66dbddd1"
+        android:text="What Skyrim offers compared to the previous game (Oblivion) \n
+\n
+- Much better leveling system \n
+- No attributes; perks instead \n
+- Shorter guilds \n
+- No spellmaking, but you can dual wield spells (as well as weapons) \n
+- Improved combat, especially archery \n
+- Dragons, dragon souls and shouts \n
+- You can sprint, but no acrobatics or athletics \n
+- There is smithing (you can make your own wepons and armor) \n
+\n
+*these are just subjective opinions \n"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="backsq"
+        android:background="@drawable/back"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+         />
+
+
+</RelativeLayout>
